@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+     height: 100vh; 
+     width: 100vw;
+     background-color:#B9F3FC;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+button{
+    background-color: #F7C8E0;
+    padding: 4px 10px;
+    color:#3A1078;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 1px solid #FCE22A;
+    width: fit-content;
+
+}
+li {
+    list-style: none;
+     cursor: pointer; 
+  }
+button:hover {
+    background-color: #E5BA73;
+    color:#DC0000;
+    border: 1px solid black;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* header {
+    padding: 15px 0;
+  } */
+  nav .logo {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+  }
+  nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  .search{
+    display: flex;
+    gap: 30px;
+  }
+  input {
+    border-radius: 5px;
+    padding: 4px 10px;
+    
+  }
+  input:hover{
+    color:#DC0000;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+
+  }
+  .section {
+     display: flex;
+     align-items: center;
+
+  }
+  .left{
+    width: 60%;
+    padding: 0 4%;
+  }
+  .left h1 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+  .left h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+  }
+  
+  .left p {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .left p span {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(18, 155, 155);
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .right_down {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .right img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  footer {
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  
+  footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  a {
+    text-decoration: none;
+  }
